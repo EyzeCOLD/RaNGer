@@ -48,6 +48,7 @@ int main(int argc, char **argv)
 		if (i < arr_siz)
 			printf(", ");
 	}
+	printf("\n");
 	free(arr);
 	return (0);
 }
